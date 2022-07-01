@@ -7,7 +7,7 @@
 from datetime import date
 date = date.today()
 #name = input ("Please enter your name: ")
-print ("Hello", "Todays date is", date)
+print ("Hello customer, Todays date is", date)
 user = {
     'pin': 1234,
     'pin': 9876,
@@ -69,4 +69,4 @@ if pin == user['pin']:
         else:
             print("Please enter a correct value shown")
 else:
-    print("Entered wrong pin")
+    print("Entered wrong pin, please try again.")
